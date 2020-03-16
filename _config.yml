@@ -5,3 +5,4 @@ show_downloads: false
 theme: jekyll-theme-cayman
 owner_url: lampda.github.io
 owner_name: Sheng Li
+show_nav: false
