@@ -29,9 +29,14 @@
       {% endif %}
     </header>
 
+    {%if site.github.show_nav %}
     <nav id="nav" class="nav"><ul>
       <li><a href="http://www.aiverse.net">Home</a></li>
+      <li><a href="./research/physics">Physics</a></li>
+      <li><a href="./research/math">Maths</a></li>
+      <li><a href="./research/notes">NoteBooks</a></li>
     </ul></nav>
+    {% endif %}
 
     <main id="content" class="main-content" role="main">
       {{ content }}
